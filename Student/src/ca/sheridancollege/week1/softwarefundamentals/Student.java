@@ -14,6 +14,7 @@ public class Student {
     private String name;
     private int StudentID;
     private int GPA;
+    private String status;
     
     public int getGPA()
     {
