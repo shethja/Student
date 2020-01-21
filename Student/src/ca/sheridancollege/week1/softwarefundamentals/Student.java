@@ -13,7 +13,13 @@ public class Student {
     
     private String name;
     private int StudentID;
-
+    private int GPA;
+    
+    public int getGPA()
+    {
+        return GPA;
+    }
+    
     /**
      * Get the value of name
      *
@@ -30,6 +36,13 @@ public class Student {
      */
     public void setName(String name) {
         this.name = name;
+    }
+
+    /**
+     * @param GPA the GPA to set
+     */
+    public void setGPA(int GPA) {
+        this.GPA = GPA;
     }
 
 }
